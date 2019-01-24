@@ -1,4 +1,3 @@
-Project Description
 It is a system that allows clients to see the available seats for booking and book any of them as many times as required. It is a server client architecture, where server keeps all the record about the clients who have booked what seats till the time, and the current active clients booking(connected) etc. Server allows multiple clients to access the system and book the tickets using locks which allows data synchronization mechanism in the case of multiple clients trying to access the same data source. When client gets connected, he/she will be shown a list of available seats and based on the seats selected by the client server updates the available seats list and lets the client continue booking if required by client.
 
 Modules
